@@ -1,0 +1,177 @@
+/* Netw0rks's CSS */
+header
+{
+	background-image: linear-gradient(to bottom, #00539C 80%, #ffffff 100%);
+	color: white;
+	text-shadow: 2px 1px 3px black;
+}
+
+section
+{
+	/* border: 1px solid black; */
+	display : flex;
+	background-image: linear-gradient(to top, #00539C -15%, #ffffff 100%);
+	
+	min-width : 900px;
+	min-height : 1000px;
+	flex-direction:column;
+	
+}
+
+#presentation
+{
+	align-items: center;
+	text-align: left;
+	display:flex;
+	flex-direction:column;
+	margin: 2%;
+	/* border: 1px double yellow; */
+	
+}
+
+#TOPlogout
+{
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+
+}
+
+.signup input
+{
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background-image: linear-gradient(to right, #755139 0%, #895f43 100%);
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	color: white;
+	text-shadow: 1px 2px black;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-left: 20px;
+	vertical-align: middle;	
+}
+
+.signin input
+{
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background-image: linear-gradient(to left, #8D9440 0%, #99a145 100%);
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	color: white;
+	text-shadow: 2px 1px black;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-right: 20px;
+	vertical-align: middle;		
+}
+
+.logout input
+{
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background-image: linear-gradient(to right, #755139 0%, #895f43 100%);
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	color: white;
+	text-shadow: 1px 2px black;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-left: 20px;
+	vertical-align: middle;	
+}
+
+.prez
+{
+	
+}
+
+.myspace input
+{
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background-image: linear-gradient(to left, #8D9440 0%, #99a145 100%);
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	color: white;
+	text-shadow: 2px 1px black;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-right: 20px;
+	vertical-align: middle;	
+}
+
+
+#menu, form
+{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid black; */
+	
+}
+#menu.sticky
+{
+		position:sticky;
+		top:0;
+}
+.menuaccueil input
+{
+	border-top: 1px solid #96d1f8;
+	background-image: linear-gradient(to bottom, #00539C 45%, #1a94ff 90%);
+	border-radius: 10px;
+	box-shadow: #00294d 0 3px 0 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-right:10px;
+	vertical-align: middle;
+}
+
+.menuprojets input
+{
+	border-top: 1px solid #96d1f8;
+	background-image: linear-gradient(to bottom, #00539C 45%, #1a94ff 90%);
+	border-radius: 10px;
+	box-shadow: #00294d 0 3px 0 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.menuabout input
+{
+	border-top: 1px solid #96d1f8;
+	background-image: linear-gradient(to bottom, #00539C 45%, #1a94ff 90%);
+	border-radius: 10px;
+	box-shadow: #00294d 0 3px 0 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.menucontact input
+{
+	border-top: 1px solid #96d1f8;
+	background-image: linear-gradient(to bottom, #00539C 45%, #1a94ff 90%);
+	border-radius: 10px;
+	box-shadow: #00294d 0 3px 0 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 18px;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+
+html
+{
+	left: 0;
+	top: 0;
